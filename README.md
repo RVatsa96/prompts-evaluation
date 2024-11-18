@@ -7,8 +7,7 @@ This repository contains author-generated code underlying our impact evaluation 
 2. randomization.do: Stata script that performs the facility randomization procedure described in our manuscript
 3. data_dictionary.csv: CSV file describing the variables used in our analysis
 4. results.R: R script containing our full analytical pipeline, with sections describing how we assessed for:
-   a) balance of baseline sample characteristics
-   b) attrition at antenatal and postnatal follow-up
-   c) impact estimates for our summary indices and domain component measures
-      - We also include code demonstrating how we generated our various summary indices
+   - balance of baseline sample characteristics
+   - attrition at antenatal and postnatal follow-up
+   - impact estimates for our summary indices and domain component measures
 5. figures.R: R script that generates Figures 4 and 5 of our manuscript
