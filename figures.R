@@ -128,7 +128,7 @@ ggplot(data = fig_care_content_df) +
   geom_pointrange(aes(x = VarLabel, y = Coef, ymin = Lower, ymax = Upper, color = Model), 
                  position = position_dodge(width = 0.6), size = 0.5) + 
   geom_hline(yintercept = 0, color = "#757575", lty = 2) + 
-  scale_color_manual(values=c("#235597","cornflowerblue")) + labs(x = "", y = "Treatment Effect Estimate",
+  scale_color_manual(values=c("#235597","lightskyblue3")) + labs(x = "", y = "Treatment Effect Estimate",
                                                       title = "Postpartum Care Content Index Component Measures") + 
   coord_flip() + 
   theme_classic() + theme(legend.position = "bottom", legend.title = element_blank(),
